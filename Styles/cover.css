@@ -1,0 +1,20 @@
+.cover{
+    /* background-image: url("https://statics.olx.com.pk/external/base/img/hero_bg_pk.jpg"); */
+    height: 252px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    position: absolute;
+    /* top: 112px; */
+    left: 0;
+    right: 0;
+    /* z-index: 1; */
+    margin-top: 5px;
+    display: block;
+}
+.cover-div{
+    height: 252px;
+    margin: 0 0 40px;
+    display: flex;
+    align-items: center;
+}

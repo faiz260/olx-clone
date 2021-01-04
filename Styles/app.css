@@ -1,9 +1,32 @@
+@import './navbar2.css';
+@import './cover.css';
+@import './main-body.css';
+@import './footer.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+}
 .navbar{
     height: 60px;
-    border: 1px solid;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0px 1px 5px -4px;
+    border: 1px solid rgb(243, 243, 243);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.logo{
+    color: #002f34;
+}
+.login > a{
+    font-size: 18px;
+    color: #002f34;
+    font-weight: bold;
 }
 .dropdown{
     height: 48px;
@@ -19,18 +42,17 @@
 .search{
     height: 48px;
     width: 100%;
-    flex-basis: 350px;
     border: 2px solid #002f34;
     color: #002f34;
     border-radius: 4px 0px 0px 4px;
     font-size: 16px;
     font-weight: 100;
     padding: 0px 8px;
+    flex: 1;
 }
 .search-div{
     display: flex;
 }
-
 .search-button{
     height: 48px;
     border: 2px solid #002f34;
@@ -40,4 +62,29 @@
     padding: 0px 8px;
     border-radius: 0px 4px 4px 0px;
     background-color: #002f34;
+    cursor: pointer;
 }
+.sell > button{
+    height: 48px;
+    width: 104px;
+    border-radius: 40%;
+    border: 5px solid;
+    color: #002f34;
+    border-left-color: yellow;
+    border-right-color:rgb(37, 240, 247) ;
+    border-top-color:rgb(37, 240, 247) ;
+    border-bottom-color:rgb(37, 153, 247) ;
+    box-shadow: 2px 3px 15px 0px grey;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sell > button:hover{
+    cursor: pointer;
+}
+.sell > button > span{
+    font-size: 20px;
+}
+
